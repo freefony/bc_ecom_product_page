@@ -1,1 +1,1 @@
-# bc_ecom_product_page
+# BC Ecom Product Page
