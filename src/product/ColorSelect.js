@@ -5,7 +5,6 @@ export const ColorSelect = ({ colors, selectedColor, onColorChange, sample }) =>
   const [isOpen, toggleIsOpen] = React.useState(false)
 
   const handleClick = () => {
-    console.log(isOpen)
     toggleIsOpen(!isOpen)
   }
   const items = colors.filter(color => (color !== selectedColor))
