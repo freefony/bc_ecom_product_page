@@ -3,7 +3,7 @@ import { ProductInfo } from './product/ProductInfo'
 import * as api from './api'
 import { useEffect, useState } from 'react';
 
-function App() {
+function ProductDetails () {
   const [product, setProduct] = useState()
   const productId = window.location.pathname.split('/').pop()
 
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default ProductDetails;
