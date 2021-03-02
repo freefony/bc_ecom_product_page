@@ -2,18 +2,19 @@
 
 ## Components
 - ProductDetail: A 2 column Grid layout that wraps the and controls the flow of the page.
-  - ProductGellery: A child component of ProductDetail
+  - ProductGellery
     - Thumbnails
     - Slides
   - ProductInfo:
     - ColorSelector
     - Sizes: Shows a Grid of available shoe sizes
-    - DropDown
-      - DropDown Options
-        - DropDownItems
-    - Button
     - Modal(not built)
       - AtheleticSizeModal(not built)
+  ### Reusable Components
+    - Button
+    - DropDown
+      - DropDown Options
+        - DropDownItems 
     
     
 
